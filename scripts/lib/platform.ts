@@ -48,3 +48,7 @@ export const toWindowsImeDict = (items: DictItem[]) => {
     .map((item) => `${item.hiragana}\t${item.word}\t${item.hinshi}`)
     .join('\r\n');
 };
+
+export const toWnnDict1 = (items: DictItem[]) => {
+  return '原神1\n' + items.map((item) => `${item.hiragana}\t${item.word}`).join('\n');
+};
