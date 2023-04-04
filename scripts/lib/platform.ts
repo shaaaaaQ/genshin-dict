@@ -50,5 +50,9 @@ export const toWindowsImeDict = (items: DictItem[]) => {
 };
 
 export const toWnnDict1 = (items: DictItem[]) => {
-  return '原神1\n' + items.map((item) => `${item.hiragana}\t${item.word}`).join('\n');
+  return '原神1\n' + items.slice(0, 500).map((item) => `${item.hiragana}\t${item.word}`).join('\n');
+};
+
+export const toWnnDict2 = (items: DictItem[]) => {
+  return '原神2\n' + items.slice(500).map((item) => `${item.hiragana}\t${item.word}`).join('\n');
 };

@@ -3,7 +3,7 @@ import url from 'url';
 import path from 'path';
 import iconv from 'iconv-lite';
 import { loadDictList } from '../worddata/index.js';
-import { toKotoeriDict, toMacUserDict, toWindowsImeDict, toWnnDict1 } from './lib/platform.js';
+import { toKotoeriDict, toMacUserDict, toWindowsImeDict, toWnnDict1, toWnnDict2 } from './lib/platform.js';
 import { generateDocs } from './lib/docgen.js';
 import { DictItem } from '../worddata/dict.js';
 
@@ -16,6 +16,7 @@ const winDictFile = path.join(distDir, '原神辞書_Windows.txt');
 const macDictFile = path.join(distDir, '原神辞書_macOS.txt');
 const macUserDictFile = path.join(distDir, '原神辞書_macOS_ユーザ辞書.plist');
 const wnnDict1File = path.join(distDir, '原神辞書_Wnn_1.txt');
+const wnnDict2File = path.join(distDir, '原神辞書_Wnn_2.txt');
 
 console.log('辞書データを構築しています...');
 
@@ -29,6 +30,7 @@ console.log('辞書データを構築しています...');
   const kotoeri = toKotoeriDict(words);
   const plist = toMacUserDict(words);
   const wnn1 = toWnnDict1(words);
+  const wnn2 = toWnnDict2(words);
 
   console.log('ドキュメントを生成しています...');
 
@@ -46,10 +48,12 @@ console.log('辞書データを構築しています...');
   fs.writeFileSync(macDictFile, kotoeri, 'utf8');
   fs.writeFileSync(macUserDictFile, plist, 'utf8');
   fs.writeFileSync(wnnDict1File, wnn1, 'utf8');
+  fs.writeFileSync(wnnDict2File, wnn2, 'utf8');
 
   console.log('完了しました');
   console.log(winDictFile);
   console.log(macDictFile);
   console.log(macUserDictFile);
   console.log(wnnDict1File);
+  console.log(wnnDict2File);
 })();
