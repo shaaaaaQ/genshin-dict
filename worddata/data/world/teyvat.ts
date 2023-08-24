@@ -17,6 +17,8 @@ export default {
     { hiragana: 'こくさい', word: '黒災' },
     { hiragana: 'こうりんしゃ', word: '降臨者' },
     { hiragana: 'あぞすぶっしつ', word: 'アゾス物質' },
+    { hiragana: 'へきろのいえ', word: '壁炉の家' },
+    { hiragana: 'はうすおぶはーす', word: '壁炉の家' },
 
     // モンド
     { hiragana: 'ばどるどー', word: 'バドルドー' },
@@ -27,16 +29,17 @@ export default {
     { hiragana: 'ここなっつひつじ', word: 'ココナッツヒツジ' },
     { hiragana: 'せんがん', word: '千岩' },
     { hiragana: 'せんがんぐん', word: '千岩軍' },
+    { hiragana: 'りーゆえしちせい', word: '璃月七星' },
     { hiragana: 'そうせんぎしき', word: '送仙儀式' },
     { hiragana: 'うんかんしゃ', word: '雲翰社' },
     { hiragana: 'こかは', word: '古華派' },
-    { hiragana: 'しゅうまつばん', word: '終末番' },
 
     // 稲妻
     { hiragana: 'あめのま', word: '天目' },
     { hiragana: 'あめのまりゅう', word: '天目流' },
     { hiragana: 'いっしんでん', word: '一心伝' },
     { hiragana: 'しんおう', word: '神櫻' },
+    { hiragana: 'しゅうまつばん', word: '終末番' },
     { hiragana: 'こまにや', word: '狛荷屋' },
 
     // スメール
@@ -74,6 +77,35 @@ export default {
     { hiragana: 'れいこくぎ', word: '霊谷木' },
     { hiragana: 'れいこくぼく', word: '霊谷木' },
     { hiragana: 'じょうこうのはね', word: '浄光の羽根' },
+
+    // フォンテーヌ
+    { hiragana: 'じゅんすいせん', word: '巡水船' },
+    { hiragana: 'すちーむばーどしんぶんしゃ', word: 'スチームバード新聞社' },
+    { hiragana: 'すいせんじゅうじいん', word: '水仙十字院' },
+    { hiragana: 'ふぉんてーぬかがくいん', word: 'フォンテーヌ科学院' },
+    { hiragana: 'とげばらのかい', word: '棘薔薇の会' },
+    { hiragana: 'すぴな・でぃ・ろーすら', word: '棘薔薇の会' },
+    { hiragana: 'すぴなでぃろーすら', word: '棘薔薇の会' },
+    { hiragana: 'まれしょーせ・ふぁんとむ', word: 'マレショーセ・ファントム' },
+    { hiragana: 'まれしょーせふぁんとむ', word: 'マレショーセ・ファントム' },
+    { hiragana: 'しつりつてい', word: '執律庭' },
+    { hiragana: 'とくじゅんたい', word: '特巡隊' },
+    { hiragana: 'きょうりつてい', word: '共律庭' },
+    { hiragana: 'すうりつてい', word: '枢律庭' },
+    { hiragana: 'めりゅじーぬ', word: 'メリュジーヌ' },
+    { hiragana: 'ふぉるとぅな', word: 'フォルトゥナ' },
+    { hiragana: 'せかいしき', word: '世界式' },
+    { hiragana: 'ゆしさいていかーでぃなる', word: '諭示裁定カーディナル' },
+    { hiragana: 'りっしょうこんごうえねるぎー', word: '律償混合エネルギー' },
+    { hiragana: 'げんしたいかい', word: '原始胎海' },
+    { hiragana: 'げんしたいかいのみず', word: '原始胎海の水' },
+    { hiragana: 'あるけー', word: 'アルケー' },
+    { hiragana: 'ぷねうま', word: 'プネウマ' },
+    { hiragana: 'うーしあ', word: 'ウーシア' },
+    { hiragana: 'ぷねうむしあ', word: 'プネウムシア' },
+    { hiragana: 'ぷねうむしあついしょうめつえねるぎー', word: 'プネウムシア対消滅エネルギー' },
+    { hiragana: 'くろっくわーく・ましなりー', word: 'クロックワーク・マシナリー' },
+    { hiragana: 'くろっくわーくましなりー', word: 'クロックワーク・マシナリー' },
 
     // ナタ
     { hiragana: 'むらたじん', word: 'ムラタ人' },
