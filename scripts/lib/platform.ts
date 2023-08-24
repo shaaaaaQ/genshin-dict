@@ -56,3 +56,7 @@ export const toWnnDict1 = (items: DictItem[]) => {
 export const toWnnDict2 = (items: DictItem[]) => {
   return '原神2\n' + items.slice(500).map((item) => `${item.hiragana}\t${item.word}`).join('\n');
 };
+
+export const toSkkDict = (items: DictItem[]) => {
+  return ';; okuri-ari entries.\n;; okuri-nasi entries.\n' + items.map((item) => `${item.hiragana} /${item.word}/`).join('\n');
+};
