@@ -1,4 +1,4 @@
-Wnn Keyboard Lab用の辞書を追加したやつ  
+SKKとWnn Keyboard Lab用の辞書を追加したやつ  
 `内部ストレージ/android/data/jp.co.omronsoft.wnnlab/files/wnnlab`に`原神辞書_Wnn_1.txt`, `原神辞書_Wnn_2.txt`をコピー  
 `Wnn Keyboard Lab 設定 > 辞書 > 追加辞書`をひらいて`原神1`, `原神2`を選択
 
